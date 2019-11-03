@@ -6,10 +6,17 @@
 *.nimf         text eol=lf     linguist-language=Nim
 *.nims         text eol=lf
 
-.gitattributes text
-.gitconfig     text
-.gitignore     text
-.gitmodules    text eol=crlf
+.editorconfig    text eol=lf
+.gitattributes   text eol=lf
+.gitconfig       text eol=lf
+.gitignore       text eol=lf
+.gitmodules      text eol=lf
+
+Makefile*   text eol=lf
+makefile*   text eol=lf
+*.mak       text eol=lf
+*.mk        text eol=lf
+depend      text eol=lf
 
 *.bat          text eol=crlf
 *.sh           text eol=lf
